@@ -1,28 +1,3 @@
-# LangfordPairing
-
-Langford Pairing is a mathematical concept involving sequences where each number between 1 to n is repeated twice, with each pair spaced n units apart. This program enables users to create and validate Langford sequences, providing an interactive way to explore this interesting mathematical puzzle.
-
-## Features
-- **Create Langford sequences** for a specified value of n.
-- **Validate Langford sequences** to check their correctness.
-
-## Requirements
-- GCC compiler (GNU99 standard or later)
-
-## Installation
-Clone this repository and compile the program using the following command:
-gcc -Wall -std=gnu99 -g -o langford langford.c
-
-
-## Usage
-
-**Creating a Langford Pairing:**
-./langford -c 16
-Example output for `n=16`:
-Creating a Langford pairing with n=16
-[12, 10, 8, 5, 3, 1, 14, 1, 3, 5, 15, 8, 10, 12, 16, 13, 11, 9, 6, 4, 2, 14, 7, 2, 4, 6, 15, 9, 11, 13, 7, 16]
-
-**Validating a Langford Sequence:**
 
 # LangfordPairing
 
